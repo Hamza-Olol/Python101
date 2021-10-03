@@ -1,0 +1,13 @@
+friends = ["Jack", "Jill", "Hansel", "Gretel"]
+for friend in friends:
+    print(friend)
+    print()
+
+for friend in range(len(friends)):
+    print(friends[friend])
+    print()
+
+# Even numbers within the range of 1-100
+for index in range(1, 101):
+    if index % 2 == 0:
+        print(index)
